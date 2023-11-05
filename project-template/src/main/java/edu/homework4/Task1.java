@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class Task1 {
 
-    // ������ 1
+    //1
     public static List<Animal> sortByHeight(List<Animal> animals) {
         return animals.stream()
                 .sorted(Comparator.comparing(Animal::height))
